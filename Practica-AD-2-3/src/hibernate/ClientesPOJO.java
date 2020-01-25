@@ -35,8 +35,8 @@ public class ClientesPOJO implements java.io.Serializable {
 	public ClientesPOJO() {
 	}
 
-	public ClientesPOJO(int idEscrito) {
-		this.idCliente = idEscrito;
+	public ClientesPOJO(int idScanner) {
+		this.idCliente = idScanner;
 	}
 
 	public ClientesPOJO(String nombreCliente, String apellidosCliente, String emailCliente, String dniCliente,
